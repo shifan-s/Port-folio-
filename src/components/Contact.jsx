@@ -1,8 +1,5 @@
 import { useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
-import { BiLogoGmail } from "react-icons/bi";
-import { BsGithub } from "react-icons/bs";
-import { IoLogoLinkedin, IoLogoTwitter } from "react-icons/io5";
 import { IoMdMail } from "react-icons/io";
 import { FaPhone } from "react-icons/fa6";
 
