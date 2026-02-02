@@ -1,6 +1,8 @@
 import React from 'react';
 import { TbExternalLink } from "react-icons/tb";
 import { motion } from 'framer-motion';
+import ecommerceImg from "./assets/E-commm.png";
+import portfolioImg from "./assets/port.png";
 
 const projects = [
   {
@@ -37,12 +39,23 @@ export default function Projects() {
             viewport={{ once: true }}
           >
             <div className="lg:w-[500px] w-full rounded-2xl overflow-hidden">
-              <img
-                className="object-cover w-full h-full transition-all duration-500 cursor-pointer hover:scale-105"
-                src={project.image}
-                alt={project.title}
-              />
+             <img
+            src={ecommerceImg}
+            alt="E-commerce Project"
+            className="object-cover w-full rounded-md h-60"
+          />
+          <h2 className="mt-4 text-xl font-semibold">
+            E-commerce Website
+          </h2>
             </div>
+            <img
+            src={portfolioImg}
+            alt="Portfolio Project"
+            className="object-cover w-full rounded-md h-60"
+          />
+          <h2 className="mt-4 text-xl font-semibold">
+            Portfolio Website
+          </h2>
 
             <div className="space-y-4 lg:w-1/2 lg:space-y-6">
               <h2 className="mt-5 text-3xl font-extrabold text-white lg:mt-0 lg:text-5xl">
